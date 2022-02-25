@@ -34,11 +34,11 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest-cov
-        pytest --cov-report=xml
+        pytest
     - name: Upload code coverage to CodeCov
       uses: codecov/codecov-action@v2
       with:
-        files: ./coverage1.xml,./coverage2.xml # optional
+        files: ./coverage.xml
         flags: unittests # optional
         name: codecov-umbrella # optional
         fail_ci_if_error: true # optional (default = false)
