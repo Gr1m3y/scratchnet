@@ -1,4 +1,5 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+
 
 setup(
     name="ScratchNet",
@@ -7,7 +8,7 @@ setup(
     author="Angus S. Hilts",
     author_email="grimeyjr@gmail.com",
     long_description=open('README.md').read(),
-    packages=find_packages(include=["scratchnet"]),
+    packages=['scratchnet'],
     tests_require=['pytest', 'pytest-cov'],
     test_suite="tests",
     install_requires=[
