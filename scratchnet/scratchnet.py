@@ -38,10 +38,15 @@ class NeuralNetwork():
         return out_o1
 
 
+def mse_loss(y_true, y_pred):
+    return ((y_true - y_pred) ** 2).mean()
+
+
 def main():
     x = np.array([2, 3])
     nw = NeuralNetwork()
     print(nw.feedforward(x))
+
 
 if __name__ == "__main__":
     main()
