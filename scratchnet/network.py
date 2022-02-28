@@ -1,5 +1,5 @@
 import numpy as np
-
+import calc
 
 def sigmoid(x):
     """returns the sigmoid function of x"""
@@ -12,17 +12,17 @@ class Neuron:
         self.bias = bias
 
     def feedforward(self, inputs):
-        return(sigmoid(np.dot(self.weights, inputs) + self.bias))
+        return calc.sigmoid(np.dot(self.weights, inputs) + self.bias)
 
 
-class NeuralNetwork():
+class NeuralNetwork:
     """
     Simple neural network class consisting of the following:
     - 2 inputs
     - 2 neurons in a hidden layer
     - 1 neuron for the output layer
     """
-    def __init__(self, weights=np.array([0, 1]), bias=0):
+    def __init__(self, weights: object = np.array([0, 1]), bias: object = 0) -> None:
         self.weights = weights
         self.bias = bias
 
@@ -36,7 +36,3 @@ class NeuralNetwork():
         out_h2 = self.h2.feedforward(x)
         out_o1 = self.o1.feedforward(np.array([out_h1, out_h2]))
         return out_o1
-
-
-def mse_loss(y_true, y_pred):
-    return ((y_true - y_pred) ** 2).mean()
