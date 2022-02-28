@@ -1,5 +1,5 @@
 import numpy as np
-import calc
+from scratchnet import calc
 
 def sigmoid(x):
     """returns the sigmoid function of x"""
