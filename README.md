@@ -1,7 +1,7 @@
 # ScratchNet
 
 [![ScratchNet](https://github.com/Gr1m3y/scratchnet/actions/workflows/python-app.yml/badge.svg)](https://github.com/Gr1m3y/scratchnet/actions/workflows/python-app.yml)
-[![codecov](https://codecov.io/gh/Gr1m3y/snaketax/branch/master/graph/badge.svg?token=g2utzJW84Y)](https://codecov.io/gh/Gr1m3y/snaketax)
+[![codecov](https://codecov.io/gh/Gr1m3y/scratchnet/branch/master/graph/badge.svg?token=VJ6CRQ4L6E)](https://codecov.io/gh/Gr1m3y/scratchnet)
 [![made-with-python](https://img.shields.io/badge/made%20with-python3-blue.svg)](https://www.python.org/)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/HadrienG/taxadb)
 
