@@ -2,6 +2,7 @@
 
 [![made-with-python](https://img.shields.io/badge/made%20with-python3-blue.svg)](https://www.python.org/)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/HadrienG/taxadb)
+[![ScratchNet](https://github.com/Gr1m3y/scratchnet/actions/workflows/python-app.yml/badge.svg)](https://github.com/Gr1m3y/scratchnet/actions/workflows/python-app.yml)
 
 This is my attempt to learn a little bit more about neural networks by implementing one from scratch. 
 
